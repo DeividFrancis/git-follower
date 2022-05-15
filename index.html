@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon-dark.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>GitFollower</title>
+</head>
+
+<body class="bg">
+    <nav class="nav">
+        <div class="container">
+            <div class="image-container w-sm">
+                <img src="https://github.com/github.png" alt="" />
+            </div>
+            <div class="nav-title">
+                <h1 class="">
+                    <a href="/git-follower"> Git Follower </a>
+                </h1>
+                <span>powered by
+                    <a href="httts://github.com/deividfrancis" class="link"><b>deividfrancis</b></a></span>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div>
+            <!-- <h6>Historico</h6>
+            <ul class="historico-container">
+                <li class="historico-item">
+                    <div class="image-container w-xs">
+                        <img src="https://github.com/LOGIN.png" alt="">
+                    </div>
+                </li>
+                <li class="historico-item">
+                    <div class="image-container w-xs">
+                        <img src="https://github.com/LOGIN.png" alt="">
+                    </div>
+                </li>
+                <li class="historico-item">
+                    <div class="image-container w-xs">
+                        <img src="https://github.com/LOGIN.png" alt="">
+                    </div>
+                </li>
+            </ul> -->
+        </div>
+
+        <div id="git-busca-container" style="display: none">
+            <div class="image-container w-lg">
+                <img src="https://github.com/github.png" alt="" />
+            </div>
+            <div class="nav-title">
+                <h1 class="">
+                    <a href="/git-follower"> Git Follower </a>
+                </h1>
+                <span>powered by
+                    <a href="httts://github.com/deividfrancis" class="link"><b>deividfrancis</b></a></span>
+            </div>
+            <form action="">
+                <!-- <h3 class="info-label">Digite um nickname do GitHub</h3> -->
+                <input id="login" type="text" name="u" placeholder="Digite um nickname" />
+                <button>Buscar</button>
+            </form>
+        </div>
+
+        <div id="git-info-container">
+            <div class="profile-container">
+                <div id="current-img-container" class="image-container w-lg">
+                    <img src="https://github.com/github.png" alt="" />
+                </div>
+                <h2 id="current-login" class="profile-label">Carregando...</h2>
+            </div>
+
+            <div class="info-container">
+                <h3 class="info-label">
+                    Seguidores <span id="followers-count"></span>
+                </h3>
+                <ul id="followers" class="list-item">
+                    <!-- <li class="item">
+                        <div class="image-container w-sm">
+                            <img src="https://github.com/LOGIN.png" alt="">
+                        </div>
+                        <div class="item-info">
+                            <h5>@LOGIN</h5>
+                            <p>deivid@gmail.com</p>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- <img class="frescurinha" src="assets/github-outline.svg" alt=""> -->
+    </main>
+</body>
+
+<footer>
+    <script src="script.js"></script>
+</footer>
+
+</html>
